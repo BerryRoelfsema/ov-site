@@ -1,0 +1,32 @@
+{
+  "$schema": "https://nuxt.studio/schema/config.json",
+  "sections": {
+    "logo-col": {
+      "title": "Logo Column",
+      "fields": {
+        "logo": {
+          "type": "image",
+          "title": "Logo"
+        }
+      }
+    },
+    "navigation-col": {
+      "title": "Navigation Links",
+      "fields": {
+        "links": {
+          "type": "array",
+          "title": "Links"
+        }
+      }
+    },
+    "action-col": {
+      "title": "Action Column",
+      "fields": {
+        "buttons": {
+          "type": "array",
+          "title": "Buttons"
+        }
+      }
+    }
+  }
+}
