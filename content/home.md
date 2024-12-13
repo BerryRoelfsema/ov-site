@@ -1,3 +1,3 @@
 ::logo
-#logo [LOGO]
+#logo LOGO
 ::
