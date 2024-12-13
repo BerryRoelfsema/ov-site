@@ -1,0 +1,72 @@
+{
+  "sections": {
+    "logo-col": {
+      "title": "Logo Column",
+      "description": "The logo section of the navigation",
+      "icon": "logo",
+      "fields": {
+        "logo": {
+          "type": "image",
+          "title": "Logo"
+        },
+        "link": {
+          "type": "string",
+          "title": "Logo Link"
+        }
+      }
+    },
+    "navigation-col": {
+      "title": "Navigation Column",
+      "description": "Main navigation links",
+      "icon": "menu",
+      "fields": {
+        "links": {
+          "type": "array",
+          "title": "Navigation Links",
+          "items": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string",
+                "title": "Link Text"
+              },
+              "url": {
+                "type": "string",
+                "title": "Link URL"
+              }
+            }
+          }
+        }
+      }
+    },
+    "action-col": {
+      "title": "Action Column",
+      "description": "Call to action buttons",
+      "icon": "button",
+      "fields": {
+        "buttons": {
+          "type": "array",
+          "title": "Action Buttons",
+          "items": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string",
+                "title": "Button Text"
+              },
+              "url": {
+                "type": "string",
+                "title": "Button URL"
+              },
+              "style": {
+                "type": "string",
+                "title": "Button Style",
+                "enum": ["primary", "secondary"]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
