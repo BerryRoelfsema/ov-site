@@ -1,8 +1,7 @@
----
-logo: LOGO
----
-
 ::logo
-#logo
-LOGO. Test
+#Logo
+Test Test Test
+
+#Test
+Test Test Test
 ::
