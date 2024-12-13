@@ -1,9 +1,21 @@
 <template>
   <div class="bg-green-500 py-4">
     <div class="container bg-green-300 flex flex-wrap justify-between gap-y-4">
-      <ContentSlot :default="logoDefault" name="logo-col"/>
-      <ContentSlot :default="navigationDefault" name="navigation-col"/>
-      <ContentSlot :default="actionDefault" name="action-col"/>
+      <div class="bg-red-500">
+        <div class="bg-red-300">
+          <ContentSlot name="logo"/>
+        </div>
+      </div>
+      <nav class="bg-red-500">
+        <ul class="bg-red-300 flex gap-x-10">
+          <ContentSlot name="navigation"/>
+        </ul>
+      </nav>
+      <div class="bg-red-500">
+        <div class="bg-red-300 flex gap-x-4">
+          <ContentSlot name="action"/>
+        </div>
+      </div>
     </div>
   </div>
 </template>
