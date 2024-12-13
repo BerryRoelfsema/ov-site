@@ -1,10 +1,1 @@
-::nav
-#logo
-Test
-
-#navigation
-Test
-
-#action
-Test
-::
+test
