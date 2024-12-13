@@ -1,7 +1,4 @@
 ::logo
-#Logo
-Test Test Test
-
-#Test
+#logo
 Test Test Test
 ::
