@@ -1,10 +1,16 @@
-::nav
-#logo
-test
+::nav-bar
+#content
+  :::nav-logo
+  #logo
+  LOGO
+  :::
 
-#navigation
-test
+  :::nav-navigation
+  #navigation
+  :::
 
-#action
-test
+  :::nav-action
+  #action
+  ACTIONS
+  :::
 ::
