@@ -1,7 +1,7 @@
 <template>
   <div class="bg-red-500">
     <div class="bg-red-300">
-      <ContentSlot />
+      <ContentSlot name="logo"/>
     </div>
   </div>
 </template>
