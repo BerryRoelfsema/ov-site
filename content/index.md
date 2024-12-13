@@ -29,7 +29,7 @@
   width: half
   ---
   #heroTitle
-  [l] orem ipsum
+  lorem ipsum
   
   #heroReviewScore
   9
