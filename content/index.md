@@ -1,3 +1,3 @@
-::nav 
-#logo-col test
+::logo
+\[LOGO]
 ::
