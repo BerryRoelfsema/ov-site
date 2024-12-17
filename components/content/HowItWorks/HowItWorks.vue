@@ -3,8 +3,8 @@
     <SectionContainer width="half" class="bg-green-300">
       <div class="bg-red-500 w-full">
         <div class="bg-red-300 container text-center">
-          <h5 class="uppercase mb-8">Hoe het werkt</h5>
-          <h3 class="text-4xl font-semibold">Gratis offertes aanvragen, geheel vrijblijvend!</h3>
+          <h5 class="uppercase mb-8"><ContentSlot name="headline"/></h5>
+          <h3 class="text-4xl font-semibold"><ContentSlot name="title"/></h3>
         </div>
       </div>
     </SectionContainer>
