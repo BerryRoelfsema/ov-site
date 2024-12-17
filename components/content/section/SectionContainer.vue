@@ -1,5 +1,5 @@
 <template>
-  <div :class="`container bg-green-300 flex ${getWidth(width)} gap-x-12 mb-48`">
+  <div :class="`container bg-green-300 flex ${getWidth(width)} gap-x-12`">
     <ContentSlot name="SectionContent"/>
   </div>
 </template>
@@ -11,6 +11,6 @@ defineProps({
   width: {
     type: String,
     default: 'full'
-  }
+  },
 })
 </script>
