@@ -2,13 +2,9 @@
   <SectionWrapper>
     <SectionContainer :width="containerWidth">
       <ColumnWrapper :width="columnWidth">
-        <ColumnContainer>Hoi</ColumnContainer>
-      </ColumnWrapper>
-      <ColumnWrapper :width="columnWidth">
-        <ColumnContainer>Hoi</ColumnContainer>
-      </ColumnWrapper>
-      <ColumnWrapper :width="columnWidth">
-        <ColumnContainer>Hoi</ColumnContainer>
+        <div v-if="$slots.icon"><ContentSlot name="icon" unwrap="p"/></div>
+        <p v-if="$slots.content"><ContentSlot name="content" unwrap="p"/></p>
+        <button v-if="$slots.button"><ContentSlot name="button" unwrap="p"/></button>
       </ColumnWrapper>
     </SectionContainer>
   </SectionWrapper>

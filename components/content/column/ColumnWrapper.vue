@@ -1,7 +1,8 @@
 <template>
   <div :class="`bg-red-500 ${getWidth(width)} ${padding}`">
-    <ContentSlot name="columnContainer" />
-    <slot />
+    <ColumnContainer>
+      <slot />
+    </ColumnContainer>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
- <SectionHowItWorks/>
+ <HomeHowItWorks/>
 </template>
 
 <script setup lang="ts">
