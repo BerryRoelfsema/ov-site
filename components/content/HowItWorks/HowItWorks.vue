@@ -1,7 +1,7 @@
 <template>
   <SectionWrapper>
     <SectionContainer :width="containerWidth">
-      <ContentSlot name="content"/>
+      <ContentSlot name="content" />
     </SectionContainer>
   </SectionWrapper>
 </template>
