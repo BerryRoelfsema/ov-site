@@ -1,9 +1,9 @@
 <template>
   <div class="bg-blue-500 py-48">
-    <HeroContainer />
+    <slot />
   </div>
 </template>
 
-<script setup lang="ts">
+<script lang="ts" setup>
 
 </script>
