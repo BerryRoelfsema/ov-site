@@ -29,7 +29,7 @@
   width: half
   ---
   #heroTitle
-  [l] orem ipsum
+  lorem ipsum
   
   #heroReviewScore
   9
@@ -66,11 +66,22 @@
       :::::column-container
       :::::
     ::::
-  
-    ::::column-wrapper
-    #columnContainer
-      :::::column-container
-      :::::
-    ::::
   :::
+::
+
+::section-home
+---
+href: https://offertevergelijker.nl
+---
+#ColumnTitle
+Lorem Ipsum
+
+#ColumnContent
+Minim dolor aliqua ea eu labore incididunt do mollit dolor. Tempor anim dolore officia cupidatat in tempor aliquip aliquip. Laboris ad elit commodo mollit commodo ad esse id proident eiusmod non. Ut est consectetur proident et et culpa non voluptate nulla ullamco sit. Eu tempor anim tempor esse pariatur ad ea tempor elit.
+
+#ColumnActions
+Vergelijk offertes
+
+#image
+![Screenshot 2024-11-14 at 08.05.31.png](/assets/home/Screenshot%202024-11-14%20at%2008.05.31.png)
 ::
