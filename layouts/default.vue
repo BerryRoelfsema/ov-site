@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-green-500 py-24">
-    <slot />
-  </div>
+  <Nav/>
+  <slot/>
+
 </template>
 
 <script setup lang="ts">

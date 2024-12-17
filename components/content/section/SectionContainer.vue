@@ -1,6 +1,6 @@
 <template>
-  <div :class="`container bg-green-300 flex ${getWidth(width)} gap-x-12`">
-    <ContentSlot name="SectionContent"/>
+  <div :class="`container bg-green-300 flex flex-nowrap ${getWidth(width)} gap-x-12`">
+    <slot />
   </div>
 </template>
 

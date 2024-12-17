@@ -4,6 +4,7 @@
     <ContentSlot name="content" />
     <ContentSlot name="action" />
     <ContentSlot name="media" />
+    <slot />
   </div>
 </template>
 
