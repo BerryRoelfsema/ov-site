@@ -135,3 +135,11 @@ Commodo officia qui enim proident dolore commodo. Cupidatat aliquip nostrud cons
 #content
 Commodo officia qui enim proident dolore commodo. Cupidatat aliquip nostrud consequat laboris ullamco elit exercitation non et. Sunt duis nisi qui magna commodo laborum deserunt minim ipsum esse excepteur consectetur est laboris. Officia dolor consectetur sint et id nostrud irure mollit. Commodo officia qui enim proident dolore commodo. Cupidatat aliquip nostrud consequat laboris ullamco elit exercitation non et. Sunt duis nisi qui magna commodo laborum deserunt minim ipsum esse excepteur consectetur est laboris. Officia dolor consectetur sint et id nostrud irure mollit.
 ::
+
+::customer-reviews
+#headline
+Vertrouwd door 500+ klanten
+
+#title
+Wat klanten van Offertevergelijker vinden
+::
