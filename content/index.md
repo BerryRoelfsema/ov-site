@@ -18,16 +18,16 @@ Kies je klus, vergelijk en bespaar!
 
 ::core-values
 #valueOne
-Lorem ipsum
+Vergelijk gratis offertes
 
 #valueTwo
-Lorem ipsum
+Betrouwbare vakmannen
 
 #valueThree
-Lorem ipsum
+Onafhankelijk advies
 
 #valueFour
-Lorem ipsum
+100% vrijblijvend
 ::
 
 ::how-it-works
@@ -39,42 +39,33 @@ container-width: three-quarters
   ---
   icon-name: material-symbols:search-check-2-outline-rounded
   ---
-  #icon
-  \[ICON]
-  
   #content
-  Voluptate amet incididunt ullamco nulla culpa qui id ipsum et duis consequat ad consequat. Ut reprehenderit reprehenderit officia aute et ea occaecat ut. Magna anim laboris sunt veniam nisi ullamco irure sint proident in. Veniam deserunt est aliqua exercitation ut in.
+  Zoek naar het product of de dienst van jouw voorkeur en ga door met aanvragen.
   
   #button
-  Lorem ipsum
+  Zoek mijn product
   :::
 
   :::how-it-works-column
   ---
   icon-name: material-symbols:lab-profile-outline-rounded
   ---
-  #icon
-  \[ICON]
-  
   #content
-  Voluptate amet incididunt ullamco nulla culpa qui id ipsum et duis consequat ad consequat. Ut reprehenderit reprehenderit officia aute et ea occaecat ut. Magna anim laboris sunt veniam nisi ullamco irure sint proident in. Veniam deserunt est aliqua exercitation ut in.
+  Ontvang vrijblijvend en gratis offertes. Vergelijk deze en vind de beste deal voor jou!
   
   #button
-  Lorem ipsum
+  Vergelijk offertes
   :::
 
   :::how-it-works-column
   ---
   icon-name: material-symbols:trophy-outline-rounded
   ---
-  #icon
-  \[ICON]
-  
   #content
-  Voluptate amet incididunt ullamco nulla culpa qui id ipsum et duis consequat ad consequat. Ut reprehenderit reprehenderit officia aute et ea occaecat ut. Magna anim laboris sunt veniam nisi ullamco irure sint proident in. Veniam deserunt est aliqua exercitation ut in.
+  Ga naar het aanvraag formulier van jouw gewenste product of dienst en vul deze in.
   
   #button
-  Lorem ipsum
+  Vraag offertes aan
   :::
 
 #headline
