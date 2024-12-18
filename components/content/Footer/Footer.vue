@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primary-900 py-24">
+  <div class="bg-primary-900 pt-24 pb-12">
     <div class="container bg-primary-900 flex flex-row justify-between">
       <div class="w-1/4">
         <div class="container text-white">
@@ -13,35 +13,48 @@
         </div>
       </div>
       <div class="flex flex-row justify-between w-1/2">
-        <div class="container text-white gap-x-4">
-          <h4 class="font-semibold mb-4">Lorem ipsum</h4>
-          <ul>
-            <li>Lorem ipsum</li>
-            <li>Lorem ipsum</li>
-            <li>Lorem ipsum</li>
-            <li>Lorem ipsum</li>
-            <li>Lorem ipsum</li>
+        <div class="text-white gap-x-4">
+          <h4 class="font-semibold mb-4">Poducten & diensten</h4>
+          <ul class="space-y-2">
+            <li>Energie & duurzaam</li>
+            <li>Klussen & wonen</li>
+            <li>Verzekeringen</li>
           </ul>
         </div>
-        <div class="container text-white gap-x-4">
-          <h4 class="font-semibold mb-4">Lorem ipsum</h4>
-          <ul>
-            <li>Lorem ipsum</li>
-            <li>Lorem ipsum</li>
-            <li>Lorem ipsum</li>
-            <li>Lorem ipsum</li>
-            <li>Lorem ipsum</li>
+        <div class="text-white gap-x-4">
+          <h4 class="font-semibold mb-4">Bedrijven</h4>
+          <ul class="space-y-2">
+            <li>Aanmelden</li>
+            <li>Inloggen</li>
+            <li>Overzicht</li>
+            <li>Beoordelingen</li>
+            <li>Affiliate inloggen</li>
           </ul>
         </div>
-        <div class="container text-white gap-x-4">
-          <h4 class="font-semibold mb-4">Lorem ipsum</h4>
-          <ul>
-            <li>Lorem ipsum</li>
-            <li>Lorem ipsum</li>
-            <li>Lorem ipsum</li>
-            <li>Lorem ipsum</li>
-            <li>Lorem ipsum</li>
+        <div class="text-white gap-x-4">
+          <h4 class="font-semibold mb-4">Offertevergelijker</h4>
+          <ul class="space-y-2">
+            <li>Over ons</li>
+            <li>Hoe het werkt</li>
+            <li>Blog</li>
+            <li>Vacatures</li>
+            <li>Contact</li>
           </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="border-gray-500"/>
+  <div class="bg-primary-900 py-12">
+    <div class="container bg-primary-900 flex flex-row justify-between">
+      <div class="w-1/2">
+        <div class="container text-white">
+          <p>© <a href="https://offertevergelijker.nl/" class="underline">Offertevergelijker</a> 2019 - 2023</p>
+        </div>
+      </div>
+      <div class="w-1/2">
+        <div class="container text-right text-white">
+          <p><a href="#">Cookie Policy</a> - <a href="#">Disclaimer</a> - <a href="#">Privacy</a></p>
         </div>
       </div>
     </div>
