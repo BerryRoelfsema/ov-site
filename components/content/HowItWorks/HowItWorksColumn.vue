@@ -1,7 +1,7 @@
 <template>
   <div :class="`bg-white rounded-xl shadow-xl ${getWidth(columnWidth)} ${padding} -mt-24`">
     <ColumnContainer class="bg-white">
-      <Icon :name="iconName" v-if="$slots.icon" class="mb-4"><ContentSlot name="icon" unwrap="p"/></Icon>
+      <Icon :name="iconName" v-if="$slots.icon" class="mb-4 w-12 h-12"><ContentSlot name="icon" unwrap="p"/></Icon>
       <p v-if="$slots.content" class="mb-6"><ContentSlot name="content" unwrap="p"/></p>
       <UiButton v-if="$slots.button" :href="link" type="link"><ContentSlot name="button" unwrap="p"/></UiButton>
     </ColumnContainer>
