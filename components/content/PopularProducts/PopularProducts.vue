@@ -1,6 +1,6 @@
 <template>
   <SectionWrapper>
-    <SectionContainer class="bg-green-300 mb-12">
+    <SectionContainer class="mb-12">
       <div class="bg-red-500 w-full">
         <div class="bg-red-300 container">
           <h3 class="text-4xl font-semibold">

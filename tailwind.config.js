@@ -1,4 +1,4 @@
-import colors from "tailwindcss/colors.js";
+import colors from "tailwindcss/colors";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -9,7 +9,7 @@ export default {
     './plugins/**/*.{js,ts}',
     './app.vue',
     './error.vue',
-    './content/**/*.md'  // Since you're using @nuxt/content
+    './content/**/*.md',
   ],
   theme: {
     extend: {},
@@ -28,6 +28,7 @@ export default {
       white: colors.white,
       black: colors.black,
       blue: colors.blue,
+      gray: colors.gray,
       green: colors.green,
       red: colors.red,
       yellow: colors.yellow,
