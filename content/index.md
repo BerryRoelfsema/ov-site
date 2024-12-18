@@ -15,6 +15,20 @@ Kies je klus, vergelijk en bespaar!
 50.000
 ::
 
+::core-values
+#valueOne
+Lorem ipsum
+
+#valueTwo
+Lorem ipsum
+
+#valueThree
+Lorem ipsum
+
+#valueFour
+Lorem ipsum
+::
+
 ::how-it-works
 ---
 container-width: three-quarters
