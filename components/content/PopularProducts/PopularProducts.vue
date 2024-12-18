@@ -9,13 +9,13 @@
         </div>
       </div>
     </SectionContainer>
-    <SectionContainer :width="containerWidth" class="mb-24">
+    <SectionContainer :width="containerWidth" class="gap-x-4 mb-24">
       <ContentSlot name="content" />
     </SectionContainer>
     <SectionContainer>
       <div class="bg-red-500 w-full">
         <div class="bg-red-300 container flex justify-center">
-            <UiButton href="#">Bekijk alle producten</UiButton>
+          <UiButton href="#">Bekijk alle producten</UiButton>
         </div>
       </div>
     </SectionContainer>
