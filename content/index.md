@@ -109,10 +109,15 @@ Populaire producten
 ::who-are-we
 ---
 container-width: three-quarters
+img-alt: test test test
+img-src: assets/home/Screenshot 2024-11-14 at 08.05.31.png
 ---
 #title
-Wie is Offertvergelijker?
+Wie is Offertevergelijker?
+
+#introduction
+Commodo officia qui enim proident dolore commodo. Cupidatat aliquip nostrud consequat laboris ullamco elit exercitation non et. Sunt duis nisi qui magna commodo laborum deserunt minim ipsum esse excepteur consectetur est laboris. Officia dolor consectetur sint et id nostrud irure mollit.
 
 #content
-Consequat aute et do aliqua nostrud. Consectetur laborum aliqua magna in elit officia consequat eiusmod nostrud cillum cillum esse. Sunt qui aliquip eiusmod ut in sit veniam aute. Pariatur exercitation et cillum adipisicing culpa in reprehenderit voluptate Lorem aliquip anim excepteur laborum culpa do.
+Commodo officia qui enim proident dolore commodo. Cupidatat aliquip nostrud consequat laboris ullamco elit exercitation non et. Sunt duis nisi qui magna commodo laborum deserunt minim ipsum esse excepteur consectetur est laboris. Officia dolor consectetur sint et id nostrud irure mollit. Commodo officia qui enim proident dolore commodo. Cupidatat aliquip nostrud consequat laboris ullamco elit exercitation non et. Sunt duis nisi qui magna commodo laborum deserunt minim ipsum esse excepteur consectetur est laboris. Officia dolor consectetur sint et id nostrud irure mollit.
 ::
