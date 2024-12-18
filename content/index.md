@@ -1,6 +1,6 @@
 ::hero-home
 ---
-container-width: half
+container-width: two-thirds
 ---
 #heroTitle
 Kies je klus, vergelijk en bespaar!
@@ -124,7 +124,7 @@ Populaire producten
 ---
 container-width: three-quarters
 img-alt: test test test
-img-src: assets/home/Screenshot 2024-11-14 at 08.05.31.png
+img-src: assets/home/pexels-ensar-84745078-17785614.jpg
 ---
 #title
 Wie is Offertevergelijker?
@@ -142,4 +142,23 @@ Vertrouwd door 500+ klanten
 
 #title
 Wat klanten van Offertevergelijker vinden
+::
+
+::blog-posts
+#headline
+Tips & artikelen
+
+#title
+Interessante artikelen vol handige informatie
+::
+
+::register-as-specialist
+---
+container-width: half
+---
+#title
+Ben je zelf een vakspecialist?
+
+#content
+Aliquip minim veniam ea proident occaecat. Fugiat officia non amet excepteur dolore. Amet non pariatur nulla laborum culpa dolor proident est Lorem laborum deserunt. Ipsum cupidatat magna occaecat do reprehenderit ipsum laboris dolore labore ad. Culpa ipsum nulla in consectetur laborum sint fugiat mollit cupidatat exercitation eiusmod laborum quis adipisicing exercitation.
 ::
