@@ -1,5 +1,5 @@
 <template>
-  <HeroWrapper :class="`!bg-[url('${imgUrl}')] bg-cover`">
+  <HeroWrapper :class="`bg-[url('public/${imgUrl}')] bg-cover`">
     <HeroContainer :width="containerWidth" class="bg-transparent">
       <div>
         <div class="container">
