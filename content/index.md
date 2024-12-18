@@ -37,7 +37,7 @@ container-width: three-quarters
 #content
   :::how-it-works-column
   ---
-  icon-name: material-symbols:search-check-2-outline-rounded
+  icon-name: mdi:search
   ---
   #content
   Zoek naar het product of de dienst van jouw voorkeur en ga door met aanvragen.
@@ -48,7 +48,7 @@ container-width: three-quarters
 
   :::how-it-works-column
   ---
-  icon-name: material-symbols:lab-profile-outline-rounded
+  icon-name: mdi:file-outline
   ---
   #content
   Ontvang vrijblijvend en gratis offertes. Vergelijk deze en vind de beste deal voor jou!
@@ -59,7 +59,7 @@ container-width: three-quarters
 
   :::how-it-works-column
   ---
-  icon-name: material-symbols:trophy-outline-rounded
+  icon-name: mdi:trophy-outline
   ---
   #content
   Ga naar het aanvraag formulier van jouw gewenste product of dienst en vul deze in.
