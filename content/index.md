@@ -36,6 +36,9 @@ container-width: three-quarters
 ---
 #content
   :::how-it-works-column
+  ---
+  icon-name: material-symbols:search-check-2-outline-rounded
+  ---
   #icon
   \[ICON]
   
@@ -47,6 +50,9 @@ container-width: three-quarters
   :::
 
   :::how-it-works-column
+  ---
+  icon-name: material-symbols:lab-profile-outline-rounded
+  ---
   #icon
   \[ICON]
   
@@ -58,6 +64,9 @@ container-width: three-quarters
   :::
 
   :::how-it-works-column
+  ---
+  icon-name: material-symbols:trophy-outline-rounded
+  ---
   #icon
   \[ICON]
   
