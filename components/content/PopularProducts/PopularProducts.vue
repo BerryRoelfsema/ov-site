@@ -1,21 +1,21 @@
 <template>
-  <SectionWrapper>
-    <SectionContainer class="mb-12">
-      <div class="bg-red-500 w-full">
-        <div class="bg-red-300 container">
+  <SectionWrapper class="bg-primary-50">
+    <SectionContainer class="bg-primary-50 mb-12">
+      <div class="w-full">
+        <div class="container">
           <h3 class="text-4xl font-semibold">
             <ContentSlot name="title" />
           </h3>
         </div>
       </div>
     </SectionContainer>
-    <SectionContainer :width="containerWidth" class="gap-x-4 mb-24">
+    <SectionContainer :width="containerWidth" class="bg-primary-50 gap-x-4 mb-24">
       <ContentSlot name="content" />
     </SectionContainer>
-    <SectionContainer>
-      <div class="bg-red-500 w-full">
-        <div class="bg-red-300 container flex justify-center">
-          <UiButton href="#">Bekijk alle producten</UiButton>
+    <SectionContainer class="bg-primary-50">
+      <div class="w-full">
+        <div class="container flex flex-col items-center">
+          <UiButton href="#" type="link">Bekijk alle producten</UiButton>
         </div>
       </div>
     </SectionContainer>

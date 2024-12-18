@@ -1,24 +1,24 @@
 <template>
-  <SectionWrapper class="bg-yellow-500">
-    <SectionContainer class="mb-24">
-      <div class="bg-red-500 w-full">
-        <div class="bg-red-300 container text-center">
-          <h5 class="uppercase mb-8"><ContentSlot name="headline" /></h5>
+  <SectionWrapper class="bg-white">
+    <SectionContainer class="bg-white mb-24">
+      <div class="w-full">
+        <div class="container flex flex-col items-center">
+          <UiHeadline><ContentSlot name="headline" /></UiHeadline>
           <h3 class="text-4xl font-semibold"><ContentSlot name="title" /></h3>
         </div>
       </div>
     </SectionContainer>
-    <SectionContainer :width="containerWidth" class="mb-24">
-      <div class="bg-red-500 w-full">
-        <div class="bg-red-300 container text-center">
+    <SectionContainer :width="containerWidth" class="bg-white mb-24">
+      <div class="w-full">
+        <div class="container text-center">
           [REVIEWS]
         </div>
       </div>
     </SectionContainer>
-    <SectionContainer>
-      <div class="bg-red-500 w-full">
-        <div class="bg-red-300 container flex justify-center">
-          <UiButton href="#">Lees alle reviews</UiButton>
+    <SectionContainer class="bg-white">
+      <div class="w-full">
+        <div class="container flex flex-col items-center">
+          <UiButton href="#" type="secondary">Lees alle reviews</UiButton>
         </div>
       </div>
     </SectionContainer>

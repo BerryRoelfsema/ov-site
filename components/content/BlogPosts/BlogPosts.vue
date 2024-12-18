@@ -1,16 +1,16 @@
 <template>
-  <SectionWrapper>
-    <SectionContainer class="mb-12">
-      <div class="bg-red-500 w-full">
-        <div class="bg-red-300 container text-center">
-          <h5 class="uppercase mb-8"><ContentSlot name="headline" /></h5>
+  <SectionWrapper class="bg-primary-50">
+    <SectionContainer class="bg-primary-50 mb-12">
+      <div class="w-full">
+        <div class="container flex flex-col items-center">
+          <UiHeadline><ContentSlot name="headline" /></UiHeadline>
           <h3 class="text-4xl font-semibold"><ContentSlot name="title" /></h3>
         </div>
       </div>
     </SectionContainer>
-    <SectionContainer :width="containerWidth">
-      <div class="bg-red-500 w-full">
-        <div class="bg-red-300 container text-center">
+    <SectionContainer :width="containerWidth" class="bg-primary-50">
+      <div class="w-full">
+        <div class="container text-center">
           [BLOG POSTS]
         </div>
       </div>

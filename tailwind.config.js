@@ -33,6 +33,7 @@ export default {
       red: colors.red,
       yellow: colors.yellow,
       primary: {
+        50: '#f2faff',
         100: '#e6f3fa',
         200: '#b3dbf1',
         300: '#80c3e8',

@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-green-500 py-4">
-    <div class="container bg-green-300 flex flex-wrap justify-between gap-y-4 items-center">
+  <div class="bg-gray-500 py-4">
+    <div class="container bg-gray-300 flex flex-wrap justify-between gap-y-4 items-center">
       <div class="bg-red-500">
         <div class="bg-red-300 container">
           <img src="public/offertevergelijker_logo.png" alt="test" class="h-8"/>

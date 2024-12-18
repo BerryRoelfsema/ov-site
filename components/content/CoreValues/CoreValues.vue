@@ -1,8 +1,8 @@
 <template>
-  <SectionWrapper class="!py-2 bg-gray-200">
-    <SectionContainer :width="containerWidth">
-      <div class="bg-red-500 w-full">
-        <div class="bg-red-300 container flex justify-between text-center">
+  <SectionWrapper class="!py-2 bg-primary-900">
+    <SectionContainer :width="containerWidth" class="bg-primary-900">
+      <div class="w-full">
+        <div class="container flex flex-row justify-between text-center text-white">
           <p><ContentSlot name="valueOne" unwrap="p"/></p>
           <p><ContentSlot name="valueTwo" unwrap="p"/></p>
           <p><ContentSlot name="valueThree" unwrap="p"/></p>
