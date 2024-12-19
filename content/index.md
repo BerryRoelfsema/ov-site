@@ -1,7 +1,7 @@
 ::hero-home
 ---
 container-width: two-thirds
-img-url: assets/home/pexels-ensar-84745078-17785614.jpg
+img-url: assets/pattern.jpeg
 ---
 #heroTitle
 Kies je klus, vergelijk en bespaar!
@@ -37,7 +37,7 @@ container-width: three-quarters
 #content
   :::how-it-works-column
   ---
-  icon-name: material-symbols:search-check-2-outline-rounded
+  icon-name: mdi:search
   ---
   #content
   Zoek naar het product of de dienst van jouw voorkeur en ga door met aanvragen.
@@ -48,7 +48,7 @@ container-width: three-quarters
 
   :::how-it-works-column
   ---
-  icon-name: material-symbols:lab-profile-outline-rounded
+  icon-name: mdi:file-outline
   ---
   #content
   Ontvang vrijblijvend en gratis offertes. Vergelijk deze en vind de beste deal voor jou!
@@ -59,7 +59,7 @@ container-width: three-quarters
 
   :::how-it-works-column
   ---
-  icon-name: material-symbols:trophy-outline-rounded
+  icon-name: mdi:trophy-outline
   ---
   #content
   Ga naar het aanvraag formulier van jouw gewenste product of dienst en vul deze in.
@@ -123,18 +123,18 @@ Populaire producten
 
 ::who-are-we
 ---
-container-width: three-quarters
+container-width: two-thirds
 img-alt: test test test
-img-src: assets/home/pexels-ensar-84745078-17785614.jpg
+img-src: assets/home/photo_1.jpeg
 ---
 #title
 Wie is Offertevergelijker?
 
 #introduction
-Commodo officia qui enim proident dolore commodo. Cupidatat aliquip nostrud consequat laboris ullamco elit exercitation non et. Sunt duis nisi qui magna commodo laborum deserunt minim ipsum esse excepteur consectetur est laboris. Officia dolor consectetur sint et id nostrud irure mollit.
+Vergelijken doen we allemaal en altijd. Of het nou gaat om het kiezen van de juiste avocado, de leukste vakantie of het beste bedrijf voor jouw klus.
 
 #content
-Commodo officia qui enim proident dolore commodo. Cupidatat aliquip nostrud consequat laboris ullamco elit exercitation non et. Sunt duis nisi qui magna commodo laborum deserunt minim ipsum esse excepteur consectetur est laboris. Officia dolor consectetur sint et id nostrud irure mollit. Commodo officia qui enim proident dolore commodo. Cupidatat aliquip nostrud consequat laboris ullamco elit exercitation non et. Sunt duis nisi qui magna commodo laborum deserunt minim ipsum esse excepteur consectetur est laboris. Officia dolor consectetur sint et id nostrud irure mollit.
+Via Offertevergelijker vraag je vrijblijvend offertes aan van bedrijven die bij jou in de regio actief zijn. Door de offertes met elkaar te vergelijken, ontdek je eenvoudig de verschillen op het gebied van prijs, ervaring en garantie. Zo vind je gemakkelijk het bedrijf dat bij jou past en bespaar je vaak ook nog eens veel geld!
 ::
 
 ::customer-reviews
@@ -155,11 +155,11 @@ Interessante artikelen vol handige informatie
 
 ::register-as-specialist
 ---
-container-width: half
+container-width: third
 ---
 #title
 Ben je zelf een vakspecialist?
 
 #content
-Aliquip minim veniam ea proident occaecat. Fugiat officia non amet excepteur dolore. Amet non pariatur nulla laborum culpa dolor proident est Lorem laborum deserunt. Ipsum cupidatat magna occaecat do reprehenderit ipsum laboris dolore labore ad. Culpa ipsum nulla in consectetur laborum sint fugiat mollit cupidatat exercitation eiusmod laborum quis adipisicing exercitation.
+Je kunt je bij ons aanmelden als vakspecialist! Er zijn tienduizenden gebruikers die dagelijks meerdere offertes vergelijken. Meld je aan en ontvang opdrachten aan de lopende band!
 ::
