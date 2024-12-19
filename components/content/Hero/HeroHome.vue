@@ -1,6 +1,6 @@
 <template>
-  <HeroWrapper :class="`bg-[url('public/${imgUrl}')] bg-cover`">
-    <HeroContainer :width="containerWidth" class="bg-transparent">
+  <HeroWrapper class="relative" :class="beforeClasses">
+    <HeroContainer :width="containerWidth" class="bg-transparent relative z-10">
       <div>
         <div class="container">
           <h2 class="text-6xl font-bold font-lato mb-4"><ContentSlot name="heroTitle" unwrap="p" /></h2>
@@ -22,7 +22,7 @@
 </template>
 
 <script setup lang="ts">
-defineProps({
+const props = defineProps({
   containerWidth: {
     type: String,
     default: 'full'
@@ -31,5 +31,9 @@ defineProps({
     type: String,
     default: '/'
   },
-})
+});
+
+const beforeClasses = `
+before:absolute before:top-0 before:bg-[url('public/${props.imgUrl}')] before:bg-cover before:h-full before:w-full before:z-0
+`
 </script>
