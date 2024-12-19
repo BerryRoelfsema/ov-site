@@ -1,7 +1,7 @@
 ::hero-home
 ---
 container-width: two-thirds
-img-url: assets/home/pexels-ensar-84745078-17785614.jpg
+img-url: assets/pattern.jpeg
 ---
 #heroTitle
 Kies je klus, vergelijk en bespaar!
@@ -125,7 +125,7 @@ Populaire producten
 ---
 container-width: three-quarters
 img-alt: test test test
-img-src: assets/home/pexels-ensar-84745078-17785614.jpg
+img-src: assets/home/photo_1.jpeg
 ---
 #title
 Wie is Offertevergelijker?
