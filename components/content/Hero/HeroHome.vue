@@ -27,13 +27,14 @@ const props = defineProps({
     type: String,
     default: 'full'
   },
-  imgUrl: {
+  heroImgUrl: {
     type: String,
     default: '/'
   },
 });
 
 const beforeClasses = `
-before:absolute before:top-0 before:bg-[url('public/${props.imgUrl}')] before:bg-cover before:h-full before:w-full before:z-0
-`
+before:absolute before:top-0 before:bg-[url('public/${props.heroImgUrl}')]
+before:bg-cover before:h-full before:w-full before:z-0
+`;
 </script>
