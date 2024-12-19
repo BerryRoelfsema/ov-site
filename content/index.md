@@ -1,7 +1,7 @@
 ::hero-home
 ---
 container-width: two-thirds
-img-url: assets/pattern.jpeg
+img-url: assets/home/pexels-ensar-84745078-17785614.jpg
 ---
 #heroTitle
 Kies je klus, vergelijk en bespaar!
