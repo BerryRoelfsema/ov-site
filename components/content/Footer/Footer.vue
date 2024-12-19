@@ -4,7 +4,9 @@
       <div class="w-1/4">
         <div class="container text-white">
           <img src="public/offertevergelijker_logo_white.png" alt="test" class="h-12 mb-4"/>
-          <p class="mb-6">Nisi dolore elit velit cupidatat nulla laboris aliqua esse esse commodo labore. Duis nostrud eiusmod culpa laboris exercitation sint.</p>
+          <p class="text-lg mb-6">
+            Offertevergelijker is dé vergelijkingswebsite voor bouw- en verbouwklussen van Nederland.
+          </p>
           <div class="flex flex-row gap-x-2">
             <Icon name="mdi:facebook" size="24"/>
             <Icon name="mdi:instagram" size="24"/>

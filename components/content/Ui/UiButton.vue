@@ -4,7 +4,7 @@
   </a>
   <a v-else-if="href && type == 'link'" :href="href" :class="getTypeClasses(type)">
     <slot />
-    <Icon name="material-symbols:arrow-right-alt-rounded" :class="iconClasses"/>
+    <Icon v-if="icon" name="material-symbols:arrow-right-alt-rounded" :class="iconClasses"/>
   </a>
   <button v-else class="bg-secondary-500 py-1 px-2 border border-solid border-secondary-400 rounded text-white hover:bg-secondary-400 transition duration-100">
     <slot />
@@ -20,6 +20,10 @@ defineProps({
   type: {
     type: String,
     default: 'secondary'
+  },
+  icon: {
+    type: Boolean,
+    default: false
   }
 });
 

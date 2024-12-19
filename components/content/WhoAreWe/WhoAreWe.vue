@@ -1,7 +1,7 @@
 <template>
   <SectionWrapper class="bg-white">
     <SectionContainer :width="containerWidth" class="relative bg-white items-center py-8" :class="beforeClasses">
-      <div class="bg-white flex items-center rounded-2xl py-12 px-8 z-10">
+      <div class="bg-white flex items-center gap-x-12 rounded-2xl py-12 px-8 z-10">
         <div class="w-1/2 z-10">
           <div class="container">
             <h3 class="text-4xl font-semibold mb-4">
@@ -10,7 +10,7 @@
             <p class="mb-2 italic">
               <ContentSlot name="introduction" unwrap="p"/>
             </p>
-            <p class="mb-6">
+            <p class="mb-8 text-lg">
               <ContentSlot name="content" unwrap="p"/>
             </p>
             <UiButton>Vergelijk offertes</UiButton>

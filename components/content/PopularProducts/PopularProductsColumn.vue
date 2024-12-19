@@ -1,8 +1,8 @@
 <template>
-  <div :class="`bg-red-500 ${getWidth(columnWidth)} rounded`">
-    <ColumnContainer class="h-80 flex flex-col items-center justify-center">
-      <h4 v-if="$slots.product" class="text-xl mb-2"><ContentSlot name="product" unwrap="p"/></h4>
-      <UiButton v-if="$slots.button" :href="link"><ContentSlot name="button" unwrap="p"/></UiButton>
+  <div :class="`relative bg-[url('public/assets/home/pexels-ensar-84745078-17785614.jpg')] bg-cover ${getWidth(columnWidth)} rounded-lg ${beforeClasses}`">
+    <ColumnContainer class="bg-transparent flex flex-col items-center justify-center text-white h-96">
+      <h4 v-if="$slots.product" class="text-xl mb-4 z-10"><ContentSlot name="product" unwrap="p"/></h4>
+      <UiButton v-if="$slots.button" :href="link" type="link" class="z-10"><ContentSlot name="button" unwrap="p"/></UiButton>
     </ColumnContainer>
   </div>
 </template>
@@ -18,4 +18,9 @@ defineProps({
     default: '#',
   }
 });
+
+const beforeClasses = `
+before:bg-black before:absolute
+before:w-full before:h-full
+before:opacity-25 before:rounded-lg`
 </script>
