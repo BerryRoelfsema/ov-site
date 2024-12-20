@@ -1,8 +1,8 @@
 <template>
   <div :class="`bg-transparent ${getWidth(columnWidth)}`">
     <ColumnContainer class="bg-transparent">
-      <img :src="imgSrc" :alt="imgAlt" class="aspect-video object-cover rounded-xl"/>
-      <h5 v-if="$slots.content" class="mb-2 text-lg"><ContentSlot name="title" unwrap="p"/></h5>
+      <NuxtImg :src="imgSrc" :alt="imgAlt" format="webp" quality="80" class="aspect-video object-cover rounded-xl mb-6"/>
+      <h5 v-if="$slots.content" class="mb-2 font-semibold text-lg"><ContentSlot name="title" unwrap="p"/></h5>
       <p v-if="$slots.content" class="mb-6 text-lg"><ContentSlot name="content" unwrap="p"/></p>
       <UiButton href="#" type="link" icon>Lees verder</UiButton>
     </ColumnContainer>
