@@ -1,6 +1,7 @@
 <template>
-  <SectionWrapper class="bg-primary-400 bg-[url('public/assets/specialist_bg.jpg')] bg-cover bg-center">
-    <SectionContainer :width="containerWidth" class="bg-transparent w-[45%]">
+  <SectionWrapper class="relative">
+    <NuxtImg :src="imgUrl" class="absolute top-0 h-full w-full object-cover z-0"/>
+    <SectionContainer :width="containerWidth" class="bg-transparent relative w-[45%] z-10">
       <div class="w-full">
         <div class="container flex flex-col items-center text-white text-center">
           <h3 class="text-4xl font-semibold mb-4"><ContentSlot name="title" unwrap="p"/></h3>
@@ -18,5 +19,9 @@ defineProps({
     type: String,
     default: 'full'
   },
-})
+  imgUrl: {
+    type: String,
+    default: '/'
+  },
+});
 </script>
