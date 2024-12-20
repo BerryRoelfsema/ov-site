@@ -1,7 +1,7 @@
 ::hero-home
 ---
 container-width: two-thirds
-img-url: assets/home/hero_image.jpeg
+hero-img-url: assets/home/hero_image.jpeg
 ---
 #heroTitle
 Kies je klus, vergelijk en bespaar!
