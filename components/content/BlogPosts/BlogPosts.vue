@@ -9,11 +9,7 @@
       </div>
     </SectionContainer>
     <SectionContainer :width="containerWidth" class="bg-primary-50">
-      <div class="w-full">
-        <div class="container text-center">
-          [BLOG POSTS]
-        </div>
-      </div>
+      <ContentSlot name="content" unwrap="p"/>
     </SectionContainer>
   </SectionWrapper>
 </template>
