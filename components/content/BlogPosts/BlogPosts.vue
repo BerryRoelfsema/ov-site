@@ -8,8 +8,8 @@
         </div>
       </div>
     </SectionContainer>
-    <SectionContainer :width="containerWidth" class="bg-primary-50">
-      <ContentSlot name="content" unwrap="p"/>
+    <SectionContainer :width="containerWidth" class="bg-primary-50 gap-x-0">
+      <ContentSlot name="content" unwrap="p" />
     </SectionContainer>
   </SectionWrapper>
 </template>

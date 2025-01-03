@@ -5,8 +5,6 @@
 </template>
 
 <script setup lang="ts">
-import {getWidth} from "~/utils/sizeUtils";
-
 defineProps({
   width: {
     type: String,

@@ -10,7 +10,11 @@
       </div>
     </SectionContainer>
     <SectionContainer :width="containerWidth" class="bg-primary-50 gap-x-4 mb-24">
-      <ContentSlot name="content" />
+      <div class="w-full">
+        <div class="container flex flex-row gap-x-8">
+          <ContentSlot name="content"/>
+        </div>
+      </div>
     </SectionContainer>
     <SectionContainer class="bg-primary-50">
       <div class="w-full">
