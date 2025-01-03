@@ -1,18 +1,18 @@
 <template>
-  <div class="bg-gray-500 py-4">
-    <div class="container bg-gray-300 flex flex-wrap justify-between gap-y-4 items-center">
-      <div class="bg-red-500">
-        <div class="bg-red-300 container">
-          <img src="public/offertevergelijker_logo.png" alt="test" class="h-8"/>
+  <div class="sticky top-0 bg-white shadow-lg py-4 z-[999]">
+    <div class="container flex flex-wrap justify-between gap-y-4 items-center">
+      <div class="bg-white">
+        <div class="container">
+          <img src="public/offertevergelijker_logo.png" alt="test" class="h-10"/>
         </div>
       </div>
-      <nav class="bg-red-500">
-        <ul class="bg-red-300 flex gap-x-10">
+      <nav class="bg-white">
+        <ul class="flex gap-x-10">
           <ContentSlot name="navigation" unwrap="p"/>
         </ul>
       </nav>
-      <div class="bg-red-500">
-        <div class="bg-red-300 flex gap-x-4">
+      <div class="bg-white">
+        <div class="flex gap-x-4">
           <ContentSlot name="actions" unwrap="p"/>
         </div>
       </div>
@@ -20,6 +20,4 @@
   </div>
 </template>
 
-<script setup>
-
-</script>
+<script setup lang="ts" />
