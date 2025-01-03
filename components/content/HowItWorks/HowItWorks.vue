@@ -22,5 +22,5 @@ defineProps({
     type: String,
     default: 'full'
   },
-})
+});
 </script>

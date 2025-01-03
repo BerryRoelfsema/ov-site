@@ -101,6 +101,9 @@ export default {
       },
     }
   },
-  plugins: [],
+  plugins: [
+      require('tailwindcss-motion'),
+      require('tailwindcss-intersect')
+  ],
 }
 
