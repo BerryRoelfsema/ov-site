@@ -10,9 +10,7 @@
     <SectionContainer :width="containerWidth" class="bg-primary-500 text-white">
       <div class="w-full">
         <div class="container flex flex-col">
-          <dl class="divide-y divide-gray-200">
-            <ContentSlot name="content" unwrap="p"/>
-          </dl>
+          <ContentSlot name="content" unwrap="p"/>
         </div>
       </div>
     </SectionContainer>
