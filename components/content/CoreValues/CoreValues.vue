@@ -10,8 +10,8 @@
               <Icon name="mdi:checkbox-marked-circle" size="20" class="bg-green-500"/><ContentSlot name="valueTwo" unwrap="p"/>
             </p>
             <p v-if="$slots.valueThree" :class="motionClasses" class="flex flex-row gap-x-1 items-center motion-delay-200 before:bg-gray-50 before:absolute before:aspect-square before:w-4 before:ml-0.5 before:rounded-full">
-              <Icon name="mdi:checkbox-marked-circle" size="20" class="bg-green-500"/><ContentSlot name="valueThree" unwrap="p"
-            /></p>
+              <Icon name="mdi:checkbox-marked-circle" size="20" class="bg-green-500"/><ContentSlot name="valueThree" unwrap="p"/>
+            </p>
             <p v-if="$slots.valueFour" :class="motionClasses" class="flex flex-row gap-x-1 items-center motion-delay-300 before:bg-gray-50 before:absolute before:aspect-square before:w-4 before:ml-0.5 before:rounded-full">
               <Icon name="mdi:checkbox-marked-circle" size="20" class="bg-green-500"/><ContentSlot name="valueFour" unwrap="p"/>
             </p>
@@ -27,7 +27,7 @@ defineProps({
     type: String,
     default: 'full'
   },
-})
+});
 
 const motionClasses = `
 motion-preset-slide-right

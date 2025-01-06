@@ -8,12 +8,14 @@
       </div>
       <nav class="bg-white">
         <ul class="flex gap-x-10">
-          <ContentSlot name="navigation" unwrap="p"/>
+          <li>Energie & Duurzaam</li>
+          <li>Klussen & Verbouwen</li>
+          <li>Verzekeringen</li>
         </ul>
       </nav>
       <div class="bg-white">
         <div class="flex gap-x-4">
-          <ContentSlot name="actions" unwrap="p"/>
+          <UiButton>Inschrijven als vakman</UiButton>
         </div>
       </div>
     </div>
