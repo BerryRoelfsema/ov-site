@@ -27,7 +27,7 @@ Betrouwbare vakmannen
 Onafhankelijk advies
 
 #valueFour
-100% vrijblijvend
+200% nieuwe text
 ::
 
 ::how-it-works
