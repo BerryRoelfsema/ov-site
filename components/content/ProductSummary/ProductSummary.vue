@@ -1,11 +1,10 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
-  $END$
+  <SectionWrapper>
+    <SectionContainer>
+      Test
+    </SectionContainer>
+  </SectionWrapper>
 </template>
 
-<style scoped>
+<script setup lang="ts" />
 
-</style>
