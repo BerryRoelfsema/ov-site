@@ -163,3 +163,30 @@ Ben je zelf een vakspecialist?
 #content
 Je kunt je bij ons aanmelden als vakspecialist! Er zijn tienduizenden gebruikers die dagelijks meerdere offertes vergelijken. Meld je aan en ontvang opdrachten aan de lopende band!
 ::
+
+::freq-asked-questions
+#content
+  :::question
+  #question
+  Question 1
+  
+  #answer
+  Answer
+  :::
+
+  :::question
+  #question
+  Question 2
+  
+  #answer
+  Answer
+  :::
+
+  :::question
+  #question
+  Question 3
+  
+  #answer
+  Answer
+  :::
+::
