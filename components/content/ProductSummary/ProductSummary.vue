@@ -26,7 +26,7 @@
           <p class="mb-6">Jaarlijks bespaar je honderden euro’s op de energierekening met zonnepanelen. Hoeveel dit precies is,
             hangt af van het aantal panelen, het type panelen en de stand van jouw dak. Hieronder vind je een overzicht
             van de gemiddelde besparing die zonnepanelen opleveren:</p>
-          <NuxtImg src="public/table_image.jpg"/>
+          <NuxtImg src="table_image.jpg"/>
         </div>
         <div class="container">
           <h3 class="text-3xl font-semibold mb-4">Kosten zonnepanelen</h3>
@@ -91,7 +91,7 @@
 defineProps({
   containerWidth: {
     type: String,
-    default: 'full'
+    default: 'three-quarters'
   },
 });
 </script>
