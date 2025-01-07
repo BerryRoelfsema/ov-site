@@ -1,7 +1,7 @@
 ::hero-home
 ---
 container-width: two-thirds
-hero-img-url: assets/home/hero_image.jpeg
+img-url: assets/home/hero_image.jpeg
 ---
 #heroTitle
 Kies je klus, vergelijk en bespaar!
@@ -156,37 +156,11 @@ Interessante artikelen vol handige informatie
 ::register-as-specialist
 ---
 container-width: third
+img-url: assets/specialist_bg.jpg
 ---
 #title
 Ben je zelf een vakspecialist?
 
 #content
 Je kunt je bij ons aanmelden als vakspecialist! Er zijn tienduizenden gebruikers die dagelijks meerdere offertes vergelijken. Meld je aan en ontvang opdrachten aan de lopende band!
-::
-
-::freq-asked-questions
-#content
-  :::question
-  #question
-  Question 1
-  
-  #answer
-  Answer
-  :::
-
-  :::question
-  #question
-  Question 2
-  
-  #answer
-  Answer
-  :::
-
-  :::question
-  #question
-  Question 3
-  
-  #answer
-  Answer
-  :::
 ::

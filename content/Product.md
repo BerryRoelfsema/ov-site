@@ -1,3 +1,11 @@
+::hero-product
+---
+img-url: assets/product/zonnepanelen_image.jpeg
+---
+#heroTitle
+Zonnepanelen
+::
+
 ::core-values
 #valueOne
 lorem ipsum
