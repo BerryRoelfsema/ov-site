@@ -1,3 +1,17 @@
+::core-values
+#valueOne
+lorem ipsum
+
+#valueTwo
+lorem ipsum
+
+#valueThree
+lorem ipsum
+
+#valueFour
+lorem ipsum
+::
+
 ::product-summary
 ::
 
