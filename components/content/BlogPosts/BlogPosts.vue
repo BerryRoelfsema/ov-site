@@ -3,7 +3,7 @@
     <SectionContainer class="bg-primary-50 mb-12">
       <div class="w-full">
         <div class="container flex flex-col items-center">
-          <UiHeadline><ContentSlot name="headline" /></UiHeadline>
+          <UiHeadline v-if="$slots.headline"><ContentSlot name="headline" /></UiHeadline>
           <h3 class="text-4xl font-semibold"><ContentSlot name="title" /></h3>
         </div>
       </div>
