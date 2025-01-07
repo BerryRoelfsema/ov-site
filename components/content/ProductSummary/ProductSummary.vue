@@ -1,7 +1,7 @@
 <template>
   <SectionWrapper class="bg-white">
     <SectionContainer :width="containerWidth" class="bg-white">
-      <div class="w-2/3 flex flex-col gap-y-12">
+      <div class="w-3/4 flex flex-col gap-y-12">
         <div class="container">
           <h3 class="text-3xl font-semibold mb-4">Zonnepanelen offertes vergelijken</h3>
           <p class="mb-6">Op steeds meer daken zie je ze liggen: zonnepanelen. Overweeg jij ook om zonnepanelen te laten plaatsen?
@@ -61,10 +61,26 @@
           <UiButton>Ontvang gratis offertes</UiButton>
         </div>
       </div>
-      <div class="w-1/3 bg-red-500">
+      <div class="w-1/3 bg-white">
         <div class="sticky top-28 flex flex-col gap-y-6">
-          <div class="container">ggffg</div>
-          <div class="container">ggffg</div>
+          <div class="container bg-primary-500 rounded-lg text-white p-12">
+            <h3 class="text-3xl font-semibold mb-4">Meer weten</h3>
+            <ul class="space-y-2">
+              <li>lorem ipsum</li>
+              <li>lorem ipsum</li>
+              <li>lorem ipsum</li>
+              <li>lorem ipsum</li>
+            </ul>
+          </div>
+          <div class="container bg-primary-100 rounded-lg p-12">
+            <h3 class="text-3xl font-semibold mb-4">Navigatie</h3>
+            <ul class="space-y-2">
+              <li>lorem ipsum</li>
+              <li>lorem ipsum</li>
+              <li>lorem ipsum</li>
+              <li>lorem ipsum</li>
+            </ul>
+          </div>
         </div>
       </div>
     </SectionContainer>
